@@ -82,7 +82,7 @@ void create_graph(matrix_graph* g)
 void dfs(matrix_graph g, int i)
 {
     visited[i] = 1; // 先把顶点A的对应的遍历记录改为1,表示已经遍历
-    printf("\n\n====== [ 深度搜索 ] ======\n%c\n\n", g.vertex[i]);
+    printf("\n\n====== [ 深度优先 ] ======\n%c\n\n", g.vertex[i]);
 
     // 深度优先
     for (int j = 0;j < g.vertex_num; j++)
