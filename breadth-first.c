@@ -41,7 +41,7 @@ void create_graph(matrix_graph* g)
         }
     }
 
-    // 开始连线 这把有向图
+    // 开始连线 这把无向图
 
     // A-B A-F
     g -> arc[0][1] = 1;
